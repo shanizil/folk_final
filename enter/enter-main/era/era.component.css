@@ -1,0 +1,62 @@
+ h1{
+  font-family:HelveticaNeue-Bold;
+  font-size:25px;
+  color:#dbdbdb;
+  letter-spacing:0;
+  text-align:center;
+  margin-top:-165px;
+}
+
+span{
+  font-size:30px;
+}
+
+p{
+  font-family:LucidaGrande;
+  font-size:25px;
+  color:#ffffff;
+  letter-spacing:0;
+  margin-top: 40px;
+  text-align: center;
+}
+
+p+p{
+  font-family:HelveticaNeue-Light;
+  font-size:15px;
+  color:#ffffff;
+  letter-spacing:0;
+  text-align:center;
+  margin-top: -10px;
+  margin-left: -20px;
+}
+
+
+#line{
+  border-bottom: 1px solid #ffffff;
+  width: 730px;
+  margin-left: 250px;
+  margin-top: 145px;
+}
+
+#era{
+    height: 100px;
+    width: 50px;
+    position: absolute;
+}
+
+h4{
+    font-family:LucidaGrande;
+    font-size:15px;
+    color:#ffffff;
+    margin-left: 20px;
+}
+
+#dotBefore{
+   margin-left: 32px;
+}
+
+#dotBefore1{
+    margin-top: -10px;
+    margin-left: 30px;
+
+}

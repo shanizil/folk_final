@@ -1,0 +1,14 @@
+<h1>Help us create the best<br>playlist for <span>you</span></h1>
+<p>what is your favorite era?</p>
+<p>you can chooce more the one</p>
+
+<div id="line"></div>
+
+<div id="era" [style.marginTop.px]="era.MarginTop" [style.marginLeft.px]="era.MarginLeft" *ngFor="let era of era;">
+    <img [src]="era.ImgCurrent"/> 
+    <img  id="dotBefore"  [src]="era.DotBefore"/>
+    <h4>  {{era.text}}</h4>
+</div>
+
+
+<button routerLink="/instrument">NEXT</button>
