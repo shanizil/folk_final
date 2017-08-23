@@ -1,0 +1,85 @@
+#subject img{
+    width: 93%;
+    margin-left: 4%;
+    margin-top: -3%;
+}
+    
+#rate{
+    margin-left: 11%;
+    margin-top: -3%;
+}    
+
+#rate img{
+    padding-left: 2%;
+}
+
+#subject p{
+    font-family:HelveticaNeue-Bold;
+    font-size:45px;
+    font-weight: bold;
+    color:#ffffff;
+    letter-spacing:2px;
+    text-align:left;
+    margin-top: -23.5%;
+    margin-left: 12%;
+    padding-bottom: 2%;
+}
+
+
+
+/*button{
+    border-radius: 20px;
+    color: #ffffff;
+    background: none;
+    width: 95px;
+    height: 30px;
+}*/
+
+#djDetails{
+    display: block;
+    margin-left: 62%;
+    color: #ffffff;
+    margin-top: -5%;
+}
+
+#djDetails img{
+    width: 80px;
+    height: 70px;
+}
+
+#djDetails h2{
+    font-size: 20px;
+    margin-top: -17%;
+    margin-left: 32%;
+}
+
+#djDetails h3{
+    font-size: 16px;
+    margin-top: 2%;
+    margin-left: 32%;
+}
+
+#djDetails h4{
+    font-size: 10px;
+    margin-top: 2%;
+    margin-left: 32%;
+    letter-spacing: 0.5px;
+}
+
+app-intro-comments{
+    border:2px solid #364c69;
+    width:45%;
+    height:140px;
+    position: absolute;  
+    background: #284262;
+    color: #ffffff;
+    margin-top: 39%;
+    margin-left: 3%;
+}
+
+app-intro-songs{
+    margin-top: -1%;
+    display: block;
+}
+
+              

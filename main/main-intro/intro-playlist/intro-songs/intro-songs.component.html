@@ -1,0 +1,15 @@
+<div class="songs" id="style">  
+    <div class="row" *ngFor="let s of songs">
+        <ul>
+            <li>
+                <div class="col-md-1"><img src='assets/images/playButton.png'><img src='{{s.songImg}}'></div>
+                <div class="col-md-3">{{s.songName}}</div>    
+                <div class="col-md-3">{{s.singerName}}</div>
+                <div class="col-md-2">{{s.name}}</div>
+                <div class="col-md-1">{{s.time}}</div>
+                <div class="col-md-1"><img src='assets/images/like.png'> {{s.likes}}</div>
+                <div class="col-md-1"><img src='assets/images/upload1.png'> <img src='assets/images/add.png'></div>
+            </li>         
+        </ul>        
+    </div>
+</div>

@@ -1,0 +1,30 @@
+<div id="subject">
+    <img src='{{albumDetails.albumImgSub}}'>
+    <p>{{albumDetails.albumName}}</p>
+    <div id="djDetails">
+        <img src='{{albumDetails.djImg}}'>
+        <h2>{{albumDetails.djName}}</h2>
+        <h3>{{albumDetails.followers}} followers</h3>
+        <h4>https://djhardwell.com/</h4> 
+    </div>
+</div>
+<div id="rate">
+    <img src='assets/images/star.png'>
+    <img src='assets/images/star.png'>
+    <img src='assets/images/star.png'>
+    <img src='assets/images/star.png'>
+</div>
+<!-- <div id="buttons">
+    <button>Comment</button>
+    <button>Rate</button>
+</div> -->
+
+
+<app-intro-songs
+    *ngIf="albumDetails"
+    [songs] = "albumDetails.song"
+
+></app-intro-songs>
+
+<app-intro-comments></app-intro-comments>
+

@@ -1,0 +1,55 @@
+.songs{
+    font-family:HelveticaNeue;
+    font-size:11px;
+    color:#ffffff;
+    letter-spacing:0;
+    text-align:left;
+    padding: 2%;
+    height: 350px;
+    width: 71.5%;
+    background: #14415d;
+    position: absolute;
+    margin-top: 11.5%;
+    margin-left:3.5%;
+    overflow-y: scroll;
+}
+
+
+#style::-webkit-scrollbar-track{
+    border-radius: 10px;
+}
+
+#style::-webkit-scrollbar{
+    width: 7px;
+    background-color: #14415d;
+}
+
+#style::-webkit-scrollbar-thumb{
+    border-radius: 15px;
+    -webkit-box-shadow:inset 0 0 1px rgb(0,0,0,0.3);
+    background-color:#416379;
+}
+
+.row {
+    height: 38px;
+    padding-bottom: 6%;
+}
+
+.col-md-1 img{
+    margin-top: -5%;
+    padding-right: 5%;
+}
+
+.col-md-1 img+img{
+    padding-left: 30px;
+    margin-top: -37px;
+}
+
+.row div+div{
+    padding-left: 0%;
+
+}
+
+.row li{
+    list-style-type:none; 
+}
