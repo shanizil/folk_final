@@ -4,7 +4,7 @@
   color:#dbdbdb;
   letter-spacing:0;
   text-align:center;
-  margin-top:-165px;
+  margin-top:-12%;
 }
 
 span{
@@ -16,30 +16,30 @@ p{
   font-size:25px;
   color:#ffffff;
   letter-spacing:0;
-  margin-top: 40px;
+  margin-top: 3%;
   text-align: center;
 }
 
 #live{
   position: relative;
-  margin-left:470px;
-  margin-top: 50px;
+  margin-left:40%;
+  margin-top: 5%;
 }
 
 #live p{
-  margin-right: 790px;
-  margin-top: 5px;
+  margin-right:88%;
+  margin-top: 1%;
 }
 
 #studio{
   position: relative;
-  margin-top:-135px;
-  margin-left: 650px;
+  margin-top:-10%;
+  margin-left: 53%;
 }
 
 #studio p{
-  margin-right: 610px;
-  margin-top: 5px;
+  margin-right: 85%;
+  margin-top: 1%;
 }
 
 img{

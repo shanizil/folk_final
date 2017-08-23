@@ -4,7 +4,7 @@
   color:#dbdbdb;
   letter-spacing:0;
   text-align:center;
-  margin-top:-165px;
+  margin-top:-12%;
 }
 
 span{
@@ -16,7 +16,7 @@ p{
   font-size:25px;
   color:#ffffff;
   letter-spacing:0;
-  margin-top: 40px;
+  margin-top:3%;
   text-align: center;
 }
 
@@ -26,21 +26,21 @@ p+p{
   color:#ffffff;
   letter-spacing:0;
   text-align:center;
-  margin-top: -10px;
-  margin-left: -20px;
+  margin-top: 0%;
+  margin-left: 36%;
 }
 
 
 #line{
   border-bottom: 1px solid #ffffff;
-  width: 730px;
-  margin-left: 250px;
-  margin-top: 145px;
+  width: 54%;
+  margin-left: 23%;
+  margin-top: 13%;
 }
 
 #era{
     height: 100px;
-    width: 50px;
+    width: 5%;
     position: absolute;
 }
 
@@ -48,15 +48,15 @@ h4{
     font-family:LucidaGrande;
     font-size:15px;
     color:#ffffff;
-    margin-left: 20px;
+    margin-left: 36%;
 }
 
 #dotBefore{
-   margin-left: 32px;
+   margin-left: 45%;
 }
-
+/*
 #dotBefore1{
     margin-top: -10px;
     margin-left: 30px;
 
-}
+}*/
